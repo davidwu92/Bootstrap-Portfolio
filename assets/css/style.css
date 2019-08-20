@@ -1,7 +1,26 @@
-.navbar {
+nav {
     background-color:teal;
 }
 
-.body {
-    background-image: url(./../images/white-waves.png)
+
+.content {
+    background-color:white;
+    border:solid;
+    border-color: darkslategrey;
+    border-width: thin;
+    padding: 10px;
+    position: fixed;
+    left: 20%;
+    top: 20%;
+    width: 960px;
+}
+
+#photo {
+    width: 165px;
+    float: left;
+    margin-right: 20px;
+}
+
+body {
+    background-image: url(./../images/papyrus.png)
 }
