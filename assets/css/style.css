@@ -1,3 +1,7 @@
+html{
+    height: 100%;
+}
+
 nav {
     background-color:white;
 }
@@ -9,8 +13,10 @@ a{ /*for the links' styles*/
     color: white !important;
 }
 .container{
-    margin-top: 5%;
     padding:2%;
+    height: 80%;
+    overflow: scroll;
+    height: calc(100% - 102px);
 }
 .container-fluid {
     width: 100%;
@@ -38,14 +44,16 @@ a{ /*for the links' styles*/
 }
 
 body {
-    background-image: url(./../images/papyrus.png)
+    background-image: url(./../images/papyrus.png);
+    position: relative;
+    height: 100%;
 } /* Background pattern from Toptal Subtle Patterns */
 
 
 #copyright{ /*footer and copyright notice*/
     padding-top: 16px;
     padding-bottom: 26px;
-    position:absolute;
+    position: absolute;
     bottom:0%;
     width: 100%;
     height: 44px;
