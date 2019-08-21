@@ -8,7 +8,9 @@ a{ /*for the links' styles*/
     background-color: teal;
     color: white !important;
 }
-
+.container{
+    margin-top: 5%;
+}
 .container-fluid {
     width: 100%;
 }
