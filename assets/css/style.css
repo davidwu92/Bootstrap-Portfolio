@@ -17,12 +17,7 @@ a{ /*for the links' styles*/
     background-color:white;
     border:solid;
     border-color: darkslategrey;
-    border-width: thin;
-    padding: 10px;
-    position: fixed;
-    left: 20%;
-    top: 20%;
-    width: 960px;
+    border-width: thin;    
 }
 
 .contenttitle { /*titles are About Me, Portfolio, and Contact*/
